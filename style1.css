@@ -1,0 +1,172 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	background-image: url("resortimg2.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.menubar
+{
+	width: 100%;
+	height:110px;
+	background-color: black;
+	box-sizing: border-box;
+	/*padding-bottom: 23px;*/
+	/*padding-top: 9px;*/
+
+}
+#logomain
+{
+	height: 160px;
+	width: 200px;
+	padding-top: 0;
+	padding-left:25px;
+	
+	line-height: 80px;
+	/*text-align: center;
+	align-items: center;
+	justify-content: center;*/
+}
+.logo
+{
+	float: left;
+	line-height: 80px;
+}
+.bars
+{
+	padding-top: 40px;
+	float: right;
+	display: flex;
+	justify-content: space-around;
+}
+
+
+
+.navigationtoolsgreen,
+.navigationtoolspink
+{
+	font-size: 2em;
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: none;
+	/*padding-top: 30px;
+	padding-bottom: 7px;*/
+	padding-right: 40px;
+	justify-content:center;
+	align-items: center;
+	
+	color:#4dff00;
+}
+.navigationtoolspink
+{
+	font-size: 2em;
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: none;
+	padding-right: 40px;
+	justify-content:center;
+	align-items: center;
+	
+	color:#ff66c4;
+
+}
+
+.navigationtoolsgreen:hover
+{
+	background-color: #4dff00;
+	box-sizing: border-box;
+	color: #ff66c4;
+box-shadow: 0 0 5px #4dff00,
+            0 0 25px #4dff00,
+            0 0 50px #4dff00,
+            0 0 200px #4dff00;
+}
+
+
+.navigationtoolspink:hover
+
+{
+	color: #4dff00;
+	background-color: #ff66c4;
+	box-sizing: border-box;
+box-shadow: 0 0 5px #ff66c4,
+            0 0 25px #ff66c4,
+            0 0 50px #ff66c4,
+            0 0 200px #ff66c4;
+}
+
+.content1
+{
+	max-width: 1200px;
+	width: 100%;
+	height: 100vh;
+	background-image: url("resortimg5.jpg");
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	/*opacity: 0.9;*/
+
+}
+section .content1 .h
+{
+	text-align: center;
+	font-size: 90px; 
+	line-height: 540px;
+	background: url("pattern5.jpg");
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+	animation:animate 10s linear infinite;
+
+}
+@keyframes animate
+{
+	0%
+	{
+background-position: 0 0;
+	}
+	100%
+	{
+background-position: 100% 100%;
+	}
+}
+
+}
+.p
+{
+	text-align: center;
+	color: #fff;
+	position: relative;
+	font-size: 3em;
+	font-weight: bold;
+	font-style: italic;
+	font-family: "jokerman";
+}
+.content2
+{
+	width: 100%;
+	height: 100vh;
+	background-image: url("villa.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	/*opacity: 0.7;*/
+}
+.content3
+{
+width: 100%;
+	height: 100vh;
+	background-image: url("resortimg3.jpg");
+	background-attachment: fixed;
+	background-position: center;
+
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
